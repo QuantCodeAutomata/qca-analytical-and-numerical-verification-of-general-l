@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+*.log
+*.parquet
+# Keep all results deliverables (CSV, PNG) — exclude raw data downloads only
+data/*.csv
+data/*.parquet
+data/*.json
+
